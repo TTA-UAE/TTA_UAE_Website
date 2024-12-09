@@ -1,0 +1,368 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/* <!-- navbar --> */
+nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a::after {
+    content: '';
+    background-color: #FFCC00;
+    position: absolute;
+    width: 0px;
+    top: 100%;
+    left: 14%;
+    height: 2px;
+    height: 2px;
+}
+
+nav ul li:hover a::after {
+    width: 45px;
+    transition: 1.5s 0.1s;
+}
+
+nav ul li a:hover {
+    color: #D40511 !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.devdev:hover {
+    color: #D40511;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* <!-- end navbar --> */
+
+/* <!-- header --> */
+header {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container .items .item h1 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.container .items .item p {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.container .items .item p::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    3% {
+        content: "F|";
+    }
+
+    6% {
+        content: "Fr|";
+    }
+
+    9% {
+        content: "Fre|";
+    }
+
+    12% {
+        content: "Frei|";
+    }
+
+    15% {
+        content: "Freig|";
+    }
+
+    18% {
+        content: "Freigh|";
+    }
+
+    21% {
+        content: "Freight|";
+    }
+
+    24% {
+        content: "Freight |";
+    }
+
+    27% {
+        content: "Freight &|";
+    }
+
+    30% {
+        content: "Freight & |";
+    }
+
+    33% {
+        content: "Freight & S|";
+    }
+
+    36% {
+        content: "Freight & Sh|";
+    }
+
+    39% {
+        content: "Freight & Shi|";
+    }
+
+    42% {
+        content: "Freight & Ship|";
+    }
+
+    45% {
+        content: "Freight & Shipp|";
+    }
+
+    48% {
+        content: "Freight & Shippi|";
+    }
+
+    51% {
+        content: "Freight & Shippin|";
+    }
+
+    54% {
+        content: "Freight & Shipping|";
+    }
+
+    57% {
+        content: "Freight & Shippin|";
+    }
+
+    60% {
+        content: "Freight & Shippi|";
+    }
+
+    63% {
+        content: "Freight & Shipp|";
+    }
+
+    66% {
+        content: "Freight & Ship|";
+    }
+
+    69% {
+        content: "Freight & Shi|";
+    }
+
+    72% {
+        content: "Freight & Sh|";
+    }
+
+    75% {
+        content: "Freight & S|";
+    }
+
+    78% {
+        content: "Freight &|";
+    }
+
+    82% {
+        content: "Freight |";
+    }
+
+    85% {
+        content: "Freight|";
+    }
+
+    88% {
+        content: "Freig|";
+    }
+
+    92% {
+        content: "Frei|";
+    }
+
+    95% {
+        content: "Fre|";
+    }
+
+    98% {
+        content: "Fr|";
+    }
+
+    101% {
+        content: "F|";
+    }
+
+    104% {
+        content: "|";
+    }
+}
+
+/* <!-- end header --> */
+/* <!-- About me  --> */
+
+.total {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.row .about .lista {
+    font-weight: 800;
+}
+
+.row .out1 h2::after {
+    content: '';
+    background-color: #D40511;
+    position: absolute;
+    width: 120px;
+    top: 60%;
+    left: 0%;
+    height: 3.5px;
+}
+
+/* <!-- end About me  --> */
+/* <!-- services  --> */
+
+.serv p::after {
+    content: '';
+    background-color: #D40511;
+    position: absolute;
+    width: 50px;
+    top: 150%;
+    left: 48.5%;
+    height: 3.5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #D40511;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #D40511;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    color: #D40511;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+/* <!-- counter --> */
+
+.tea {
+    border: #fff;
+}
+
+.counter {
+    background-image: url(images/1000.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* <!-- end counter --> */
+/* <!-- Portfolio --> */
+
+.row .port {
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.row .port:hover .works {
+    transform: scale(130%);
+    transition: 1s 0.1s;
+}
+
+/* <!-- end Portfolio --> */
+/* <!-- Testmonial --> */
+
+.testo {
+    background-image: url(images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* <!-- end Testmonial --> */
+/* <!-- blog --> */
+.row .blue1 {
+    transform: translateY(-50%);
+}
+
+.row .baby1:hover {
+    color: #D40511;
+    transition: 0.5s 0.1s;
+}
+
+/* <!-- end blog --> */
+/* <!-- Terms --> */
+
+.arab {
+    direction: rtl;
+}
+
+/* <!-- end Terms --> */
+/* <!-- contact --> */
+.toto2 {
+    border: #D40511 solid 5px;
+    border-radius: 50%;
+}
+
+.toto2:hover {
+    border: 5px solid #ff8f95;
+    background-color: #D40511;
+    color: #fff;
+    transition: 0.5s 0.1s;
+}
+
+.hovo:hover {
+    color: #023268 !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* <!-- end contact --> */
